@@ -1,0 +1,1 @@
+"""Diabetes model serving API."""
