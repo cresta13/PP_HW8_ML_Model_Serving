@@ -1,0 +1,6 @@
+fastapi==0.128.2
+uvicorn==0.48.0
+pydantic==2.13.5
+pydantic-settings==2.14.1
+numpy==2.3.5
+onnxruntime==1.21.0
