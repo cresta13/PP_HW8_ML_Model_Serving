@@ -1,4 +1,4 @@
-# HW8 — ML Model Serving
+﻿# HW8 — ML Model Serving
 REST API для инференса
 предоставленной ONNX-модели классификации диабета с использованием FastAPI.
 
@@ -130,7 +130,7 @@ flowchart LR
 2. Авторизация реализована через `HTTPBasic`, `Depends` и
    `secrets.compare_digest`. Выполняются обе проверки.
 3. На каждый запрос создаётся отдельный NumPy-массив `float32` формы `(1, 4)`
-   в порядке `[Pregnancies, Glucose, BMI, Age]`. 
+   в порядке `[Pregnancies, Glucose, BMI, Age]`.
 4. Оригинальная модель имеет `output_label` и `output_probability`.
    Второй представляет список словарей вероятностей классов (ZipMap).
    Используется вероятность класса `1`, а не готовая метка.
